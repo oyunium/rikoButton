@@ -32,10 +32,11 @@ function ring30() { document.getElementById("arigatone.mp3").play(); }
 function ring31() { document.getElementById("arigatone2.mp3").play(); }
 function ring32() { document.getElementById("kochirakosoKansha.mp3").play(); }
 function ring33() { document.getElementById("usojan.mp3").play(); }
+function ring34() { document.getElementById("daipan.mp3").play(); }
+function ring35() { document.getElementById("killjoy.mp3").play(); }
+function ring36() { document.getElementById("reyna.mp3").play(); }
 
-function ring34() { document.getElementById("ninnin.mp3").play(); }
-function ring35() { document.getElementById("nomimono.mp3").play(); }
-function ring36() { document.getElementById("okay001.mp3").play(); }
+
 function ring37() { document.getElementById("okay002.mp3").play(); }
 function ring38() { document.getElementById("senpai1.mp3").play(); }
 function ring39() { document.getElementById("senpai2.mp3").play(); }
