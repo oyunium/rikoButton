@@ -8,7 +8,7 @@ function ring6() { document.getElementById("konbanha.mp3").play(); }
 function ring7() { document.getElementById("oyasumi.mp3").play(); }
 function ring8() { document.getElementById("oyasumi_hanagoe.mp3").play(); }
 function ring9() { document.getElementById("RikoNote.mp3").play(); }
-function ring10() { document.getElementById("baka.mp3").play(); }
+function ring10() { document.getElementById("baka.mp3").play(); } //admiration
 function ring11() { document.getElementById("barebaredayo.mp3").play(); }
 function ring12() { document.getElementById("butigire.mp3").play(); }
 function ring13() { document.getElementById("capcomYorosiku.mp3").play(); }
