@@ -477,6 +477,7 @@ tt {
   padding-top: 56.25%;
   overflow:auto;
   -webkit-overflow-scrolling:touch;
+  transition-delay: 2s;
 }
 .iframe-wrap iframe {
     position:absolute;
@@ -486,4 +487,5 @@ tt {
     height:100%;
     border:none;
     display:block;
+    transition-delay: 2s;
 }
