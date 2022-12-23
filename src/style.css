@@ -105,8 +105,9 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #212529;
-	background: rgba(255, 255, 255, 0.8);
-	background-image: url("./pic/RikoIcons.jpg");
+	background-color: rgba(255, 255, 255, 0.8) !important;
+	/*background-image: url("./pic/RikoIcons.jpg");*/
+	overflow: auto;
 	/* 画像 */
 	background-blend-mode: lighten;
 	background-size: 40% auto;
@@ -433,7 +434,7 @@ tt {
 /* 等幅 */
 
 .text-Pink {
-	color: #ff6781 !important;
+	color: #ff6781;
 }
 
 .size_20 {

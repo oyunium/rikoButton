@@ -62,25 +62,24 @@ function ring60() { document.getElementById("siteSage.mp3").play(); }
 function ring61() { document.getElementById("spikeOchiteru.mp3").play(); }
 function ring62() { document.getElementById("rikorikori.mp3").play(); }
 function ring63() { document.getElementById("samishiinndakedo.mp3").play(); }
-
 function ring64() { document.getElementById("genkiDayo.mp3").play(); }
 function ring65() { document.getElementById("hello.mp3").play(); }
 function ring66() { document.getElementById("konichiwa2.mp3").play(); }
 function ring67() { document.getElementById("minnaOhayoGenkinishitetaKinouNanishita.mp3").play(); }
 function ring68() { document.getElementById("ohayou2.mp3").play(); }
 function ring69() { document.getElementById("ohayou3.mp3").play(); }
+function ring70() { document.getElementById("jettCT.mp3").play(); }
+function ring71() { document.getElementById("jettDead.mp3").play(); }
+function ring72() { document.getElementById("gomennasai.mp3").play(); }
+function ring73() { document.getElementById("kusoga.mp3").play(); }
+function ring74() { document.getElementById("moriagatteIkouze.mp3").play(); }
+function ring75() { document.getElementById("nandeyanen.mp3").play(); }
 
-function ring70() { document.getElementById("bokuwotaosuhukanou.mp3").play(); }
-function ring71() { document.getElementById("gomi.mp3").play(); }
-function ring72() { document.getElementById("nicetryxq2.mp3").play(); }
-function ring73() { document.getElementById("obakun1.mp3").play(); }
-function ring74() { document.getElementById("obakun2.mp3").play(); }
-function ring75() { document.getElementById("obakun3.mp3").play(); }
-function ring76() { document.getElementById("omae.mp3").play(); }
-function ring77() { document.getElementById("orehatenz.mp3").play(); }
+function ring76() { document.getElementById("arenanokaSorenanoka.mp3").play(); }
+function ring77() { document.getElementById("dottiDotti.mp3").play(); }
+function ring78() { document.getElementById("dousiyo.mp3").play(); }
+function ring79() { document.getElementById("kuukiyometenaiyoAnmari.mp3").play(); }
 
-function ring81() { document.getElementById("xqtamago.mp3").play(); }
-function ring82() { document.getElementById("kansha1.mp3").play(); }
 function ring83() { document.getElementById("kyouchan1.mp3").play(); }
 function ring84() { document.getElementById("usotuke.mp3").play(); }
 function ring85() { document.getElementById("crosshairminai.mp3").play(); }
