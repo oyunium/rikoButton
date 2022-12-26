@@ -1,5 +1,5 @@
-// ボタン処理
-//!!!!!!不要なIDはgetしないこと！nullを呼び出した場合それ以降のコードが実行されない!!!!!!
+// button processing
+//!!!!!!不要なIDはgetしないこと！nullを呼び出した場合それ以降のコードが実行されない!!!!!! by N.
 function iFrame_top() {
     document.getElementById("ArticleFrame").src = "./src/iframeHTML/iframe_top.html";
     document.getElementById('MENU06').innerHTML = '<li id="MENU06" class="menu-on"><a onclick="iFrame_top();">TOP</a></li>';
