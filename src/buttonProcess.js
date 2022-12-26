@@ -8,7 +8,7 @@ function iFrame_top() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_daipan();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_daipan();">感謝</a></li>';
 };
 function iFrame_uncategorize() {
     document.getElementById("ArticleFrame").src = "./src/iframeHTML/iframe_uncategorize.html";
@@ -18,7 +18,7 @@ function iFrame_uncategorize() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_daipan();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_daipan();">感謝</a></li>';
 };
 function iFrame_greeting() {
     document.getElementById("ArticleFrame").src = "./src/iframeHTML/iframe_greeting.html";
@@ -28,7 +28,7 @@ function iFrame_greeting() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
 function iFrame_tmp() {
     document.getElementById("ArticleFrame").src = "./src/iframeHTML/iframe_tmp.html";
@@ -39,7 +39,7 @@ function iFrame_tmp() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
 function iFrame_valorant() {
     document.getElementById("ArticleFrame").src = "./src/iframeHTML/iframe_valorant.html";
@@ -49,7 +49,7 @@ function iFrame_valorant() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10" class="menu-on"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
 function iFrame_admiration() {
     document.getElementById("ArticleFrame").src = "./src/iframeHTML/iframe_admiration.html";
@@ -59,7 +59,7 @@ function iFrame_admiration() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11" class="menu-on"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
 
 function iFrame_daipan() {
@@ -70,7 +70,7 @@ function iFrame_daipan() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12" class="menu-on"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
 function iFrame_appreciation() {
     document.getElementById("ArticleFrame").src = "./src/iframeHTML/iframe_appreciation.html";
@@ -80,5 +80,5 @@ function iFrame_appreciation() {
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
     document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
-    document.getElementById('MENU13').innerHTML = '<li id="MENU13" class="menu-on"><a onclick="iFrame_appreciation();">感謝</a></li>';
+    //document.getElementById('MENU13').innerHTML = '<li id="MENU13" class="menu-on"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
