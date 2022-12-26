@@ -2,7 +2,7 @@
 
 このサイトは？
 
-りこちゃんが配信中にしゃべったボイスを集めたものです。
+りこちゃんがしゃべったボイスを集めたものです。
 
 りこぼたは<a href="https://oyunium.github.io/rikoButton/" target="_blank" rel="noopener">こちら</a>から。
 
