@@ -4,28 +4,8 @@
 /* Copyright (c) 2006 WebDesignTemplates[http://wdt.pekori.jp] All rights reserved. */
 
 /* default */
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-fieldset,
-input,
-p,
-blockquote,
-th,
-td {
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+	fieldset, input, p, blockquote, th, td {
 	margin: 0;
 	padding: 0;
 }
@@ -35,45 +15,28 @@ table {
 	border-spacing: 0;
 }
 
-fieldset,
-img {
+fieldset, img {
 	border: 0;
 }
 
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-strong,
-th,
-var {
+address, caption, cite, code, dfn, em, strong, th, var {
 	font-style: normal;
 	font-weight: normal;
 }
 
-ol,
-ul {
+ol, ul {
 	list-style: none;
 }
 
-caption,
-th {
+caption, th {
 	text-align: left;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-size: 100%;
 }
 
-q:before,
-q:after {
+q:before, q:after {
 	content: '';
 }
 
@@ -89,19 +52,19 @@ table {
 	font: 100%;
 }
 
-select,
-input,
-textarea {
+select, input, textarea {
 	font: 99% arial, helvetica, clean, sans-serif;
 }
 
 /* 全体設定 */
-html {}
+html {
+
+}
 
 /*body {}*/
 body {
 	margin: 0;
-	font-family: var(--bs-font-sans-serif);
+	font-family: var(- -bs-font-sans-serif);
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -126,7 +89,9 @@ body {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-body#INDEX {}
+body#INDEX {
+
+}
 
 div#PAGETOP {
 	width: 100%;
@@ -232,8 +197,7 @@ div#MENU {
 	text-decoration: none;
 }
 
-#MENU li a:hover,
-#MENU li a:active {
+#MENU li a:hover, #MENU li a:active {
 	border-bottom: solid 2px #BA8474;
 	text-decoration: none;
 }
@@ -272,8 +236,7 @@ h4 {
 	letter-spacing: 0.1em;
 }
 
-h5,
-h6 {
+h5, h6 {
 	padding: 0.4em 0 0.2em 0;
 }
 
@@ -283,8 +246,7 @@ h6 {
 	list-style: none;
 }
 
-.modori a:link,
-.modori a:visited {
+.modori a:link, .modori a:visited {
 	color: #BA7464;
 }
 
@@ -364,7 +326,6 @@ del {
 }
 
 /* フォーム */
-
 input {
 	margin-top: 0.5em;
 }
@@ -396,8 +357,7 @@ blockquote {
 	border-left: 2px dashed #EAEAED;
 }
 
-cite,
-q {
+cite, q {
 	text-decoration: underline;
 }
 
@@ -435,7 +395,6 @@ tt {
 }
 
 /* 等幅 */
-
 .text-Pink {
 	color: #ff6781 !important;
 }
@@ -473,3 +432,4 @@ tt {
 	color: #fff;
 	background-color: #008db7;
 	border-color: #008db7;
+}
