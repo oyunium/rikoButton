@@ -6,7 +6,7 @@ function iFrame_top() {
     document.getElementById('MENU07').innerHTML = '<li id="MENU07"><a onclick="iFrame_uncategorize();">その他</a></li>';
     document.getElementById('MENU08').innerHTML = '<li id="MENU08"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_daipan();">感謝</a></li>';
 };
@@ -16,7 +16,7 @@ function iFrame_uncategorize() {
     document.getElementById('MENU07').innerHTML = '<li id="MENU07" class="menu-on"><a onclick="iFrame_uncategorize();">その他</a></li>';
     document.getElementById('MENU08').innerHTML = '<li id="MENU08"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_daipan();">感謝</a></li>';
 };
@@ -26,7 +26,7 @@ function iFrame_greeting() {
     document.getElementById('MENU07').innerHTML = '<li id="MENU07"><a onclick="iFrame_uncategorize();">その他</a></li>';
     document.getElementById('MENU08').innerHTML = '<li id="MENU08" class="menu-on"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
@@ -37,7 +37,7 @@ function iFrame_tmp() {
     document.getElementById('MENU08').innerHTML = '<li id="MENU08"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU09').innerHTML = '<li id="MENU09" class="menu-on"><a onclick="iFrame_tmp();">テンプレート</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
@@ -47,7 +47,7 @@ function iFrame_valorant() {
     document.getElementById('MENU07').innerHTML = '<li id="MENU07"><a onclick="iFrame_uncategorize();">その他</a></li>';
     document.getElementById('MENU08').innerHTML = '<li id="MENU08"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10" class="menu-on"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
@@ -57,7 +57,7 @@ function iFrame_admiration() {
     document.getElementById('MENU07').innerHTML = '<li id="MENU07"><a onclick="iFrame_uncategorize();">その他</a></li>';
     document.getElementById('MENU08').innerHTML = '<li id="MENU08"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11" class="menu-on"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11" class="menu-on"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
@@ -68,7 +68,7 @@ function iFrame_daipan() {
     document.getElementById('MENU07').innerHTML = '<li id="MENU07"><a onclick="iFrame_uncategorize();">その他</a></li>';
     document.getElementById('MENU08').innerHTML = '<li id="MENU08"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12" class="menu-on"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };
@@ -78,7 +78,7 @@ function iFrame_appreciation() {
     document.getElementById('MENU07').innerHTML = '<li id="MENU07"><a onclick="iFrame_uncategorize();">その他</a></li>';
     document.getElementById('MENU08').innerHTML = '<li id="MENU08"><a onclick="iFrame_greeting();">あいさつ</a></li>';
     document.getElementById('MENU10').innerHTML = '<li id="MENU10"><a onclick="iFrame_valorant();">VALORANT関連</a></li>';
-    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情</a></li>';
+    document.getElementById('MENU11').innerHTML = '<li id="MENU11"><a onclick="iFrame_admiration();">感情表現</a></li>';
     //document.getElementById('MENU12').innerHTML = '<li id="MENU12"><a onclick="iFrame_daipan();">台パン</a></li>';
     //document.getElementById('MENU13').innerHTML = '<li id="MENU13" class="menu-on"><a onclick="iFrame_appreciation();">感謝</a></li>';
 };

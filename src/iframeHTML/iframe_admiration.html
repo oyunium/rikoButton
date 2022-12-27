@@ -11,11 +11,54 @@
 
 <body>
 
-	<h2><font size="5">感情</font></h2>
+	<h2><font size="5">感情表現</font></h2>
 	<hr>
 
-	<br><!-- 喜 --><br>
+	<br><!-- 哀 --><br>
+	<audio id="samishiinndakedo.mp3" preload="metadata">
+		<source src="../soundFiles/samishiinndakedo.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring63();">寂しいんだけど…</button>
+	<audio id="kimo.mp3" preload="metadata">
+		<source src="../soundFiles/kimo.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring21();">きも…</button>
+	<audio id="kimochiwarui.mp3" preload="metadata">
+		<source src="../soundFiles/kimochiwarui.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring22();">え？気持ち悪い…</button>
+	<audio id="gomennasai.mp3" preload="metadata">
+		<source src="../soundFiles/gomennasai.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring72();">ごめんなさい</button>
+	<audio id="bikkuri.mp3" preload="metadata">
+		<source src="../soundFiles/bikkuri.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring96();">びっくりしたﾋﾞｯｸﾘ…</button>
+	<audio id="eguiyoUchira.mp3" preload="metadata">
+		<source src="../soundFiles/eguiyoUchira.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring98();">エグいよウチら</button>
+	<audio id="donmai.mp3" preload="metadata">
+		<source src="../soundFiles/donmai.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring81();">どんまい</button>
+	<audio id="itsAmericanJoke.mp3" preload="metadata">
+		<source src="../soundFiles/itsAmericanJoke.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring99();">It's American joke</button>
+	<audio id="a-tsukareta.mp3" preload="metadata">
+		<source src="../soundFiles/a-tsukareta.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring95();">あー疲れた</button>
+	<audio id="mo-muridayo.mp3" preload="metadata">
+		<source src="../soundFiles/mo-muridayo.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring100();">もう！無理だよ…</button>
 
+	<br><!-- 楽 --><br>
+	<audio id="moriagatteIkouze.mp3" preload="metadata">
+		<source src="../soundFiles/moriagatteIkouze.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring74();">盛り上がっていこうぜぃ！</button>
+	<audio id="yatta-.mp3" preload="metadata">
+		<source src="../soundFiles/yatta-.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring92();">やったぁ！見た？</button>
+	<audio id="yatta-2.mp3" preload="metadata">
+		<source src="../soundFiles/yatta-2.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring104();">やったぁ！</button>
+	<audio id="sheesh.mp3" preload="metadata">
+		<source src="../soundFiles/sheesh.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring93();">Sheesh</button>
 
 	<br><!-- 怒 --><br>
 	<audio id="butigire.mp3" preload="metadata">
@@ -40,25 +83,6 @@
 		<source src="../soundFiles/nandeyanen.mp3" type="audio/mp3">
 	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring75();">なんでやねん！</button>
 
-	<br><!-- 哀 --><br>
-	<audio id="samishiinndakedo.mp3" preload="metadata">
-		<source src="../soundFiles/samishiinndakedo.mp3" type="audio/mp3">
-	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring63();">寂しいんだけど…</button>
-	<audio id="kimo.mp3" preload="metadata">
-		<source src="../soundFiles/kimo.mp3" type="audio/mp3">
-	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring21();">きも…</button>
-	<audio id="kimochiwarui.mp3" preload="metadata">
-		<source src="../soundFiles/kimochiwarui.mp3" type="audio/mp3">
-	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring22();">え？気持ち悪い…</button>
-	<audio id="gomennasai.mp3" preload="metadata">
-		<source src="../soundFiles/gomennasai.mp3" type="audio/mp3">
-	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring72();">ごめんなさい</button>
-
-	<br><!-- 楽 --><br>
-	<audio id="moriagatteIkouze.mp3" preload="metadata">
-		<source src="../soundFiles/moriagatteIkouze.mp3" type="audio/mp3">
-	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring74();">盛り上がっていこうぜぃ！</button>
-
 	<br><!-- 感謝 --><br>
 	<audio id="arigatone.mp3" preload="metadata">
 		<source src="../soundFiles/arigatone.mp3" type="audio/mp3">
@@ -69,6 +93,9 @@
 	<audio id="kochirakosoKansha.mp3" preload="metadata">
 		<source src="../soundFiles/kochirakosoKansha.mp3" type="audio/mp3">
 	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring32();">こちらこそ感謝</button>
+	<audio id="arigatougozaimasu.mp3" preload="metadata">
+		<source src="../soundFiles/arigatougozaimasu.mp3" type="audio/mp3">
+	</audio><button type="button" class="btn btn-primary mb-1" onclick="ring80();">ありがとうございます(滑舌○)</button>
 
 	<script src="../soundfiles.js"></script>
 </body>
