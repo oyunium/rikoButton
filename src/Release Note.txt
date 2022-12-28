@@ -1,0 +1,9 @@
+Release Note
+
+Rev.-(New Release)
+Date: 28th Dec, 2022
+りこぼたをリリースしました。
+
+Rev.A
+Date: 28th Dec, 2022
+ボタン追加申請用Google Formを記載しました。
