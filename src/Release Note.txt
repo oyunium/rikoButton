@@ -7,3 +7,8 @@ Date: 28th Dec, 2022
 Rev.A
 Date: 28th Dec, 2022
 ボタン追加申請用Google Formを記載しました。
+
+Rev.B
+Date: 18th Jan, 2023
+Twitter用Shareボタンを設置しました。(β版)
+ボタンを12個追加しました。ring: 105-116

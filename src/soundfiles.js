@@ -312,3 +312,40 @@ function ring103() {
 function ring104() {
 	document.getElementById("yatta-2.mp3").play();
 }
+//20230118 add
+function ring105() {
+	document.getElementById("bogenTenkomori.mp3").play();
+}
+function ring106() {
+	document.getElementById("dogete.mp3").play();
+}
+function ring107() {
+	document.getElementById("donpinosuke.mp3").play();
+}
+function ring108() {
+	document.getElementById("gomen.mp3").play();
+}
+function ring109() {
+	document.getElementById("gosyujin.mp3").play();
+}
+function ring110() {
+	document.getElementById("hetakuso.mp3").play();
+}
+function ring111() {
+	document.getElementById("hundgunRoundDajo.mp3").play();
+}
+function ring112() {
+	document.getElementById("jantama.mp3").play();
+}
+function ring113() {
+	document.getElementById("ponnya.mp3").play();
+}
+function ring114() {
+	document.getElementById("maji.mp3").play();
+}
+function ring115() {
+	document.getElementById("tsumenoMachiko.mp3").play();
+}
+function ring116() {
+	document.getElementById("tsumerujo.mp3").play();
+}

@@ -425,11 +425,24 @@ tt {
 	position: relative;
 }
 
+.btn-new {
+	color: #000;
+	background-color: #FFCB05;
+	border-color: #FFCB05;
+	position: relative;
+}
+
 /*
  * マウスオーバー時の色
  */
 .btn-primary:hover {
 	color: #fff;
 	background-color: #008db7;
+	border-color: #008db7;
+}
+
+.btn-new:hover {
+	color: #fff;
+	background-color: #008db7;/*クロムイエロー*/
 	border-color: #008db7;
 }
