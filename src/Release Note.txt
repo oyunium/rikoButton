@@ -13,3 +13,8 @@ Date: 18th Jan, 2023
 Twitter用Shareボタンを設置しました。(β版)
 ボタンを12個追加しました。ring: 105-116
 新しいボタンはクロムイエローで装飾しました
+
+Rev.C
+Date: 19th Feb, 2023
+Twitter用ShareボタンをFirefoxにも対応させました。
+推奨環境にFirefoxを追加しました。
